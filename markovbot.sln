@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "markovbot", "markovbot.pyproj", "{3CBC7466-1EF3-4D0A-AA16-94000EB34770}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CBC7466-1EF3-4D0A-AA16-94000EB34770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBC7466-1EF3-4D0A-AA16-94000EB34770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2AC898F-5BC9-4A85-9AEB-45FBC2C7D652}
+	EndGlobalSection
+EndGlobal

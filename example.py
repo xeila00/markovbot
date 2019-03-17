@@ -45,13 +45,13 @@ print(u'\ntweetbot says: "%s"' % (my_first_text))
 # that it is NOT SAFE to put your keys and tokens in a plain-text script!
 
 # Consumer Key (API Key)
-cons_key = ''
+cons_key = 'ZSA2kpz1egohMzMm7b3rUNrE3'
 # Consumer Secret (API Secret)
-cons_secret = ''
+cons_secret = 'AE9WmanoXPZrVYkg4keQKOVKRQRaaDtEcHoelMgiBSgu382g8A'
 # Access Token
-access_token = ''
+access_token = '1070084671562805248-zFaI5h5HTZppKDl2CUcrVive4QK167'
 # Access Token Secret
-access_token_secret = ''
+access_token_secret = 'KR1Q2Dl4pBpQleKr8Rc45rcyJvGHXgmMiiYNzOmJuxQkZ'
 
 # Log in to Twitter
 tweetbot.twitter_login(cons_key, cons_secret, access_token, access_token_secret)
