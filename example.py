@@ -1,4 +1,6 @@
 import os
+from ntpath import abspath
+from os import path
 import time
 
 from markovbot import MarkovBot
