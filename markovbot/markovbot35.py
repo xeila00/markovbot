@@ -381,7 +381,7 @@ class MarkovBot():
 			# Read the contents of the file
 			contents = f.read()
 		# Unicodify the contents
-		contents = contents
+		contents = 'contents'
 		#.decode(u'utf-8')
 		
 		# Split the words into a list
@@ -1097,8 +1097,8 @@ class MarkovBot():
 						# Store a copy of the latest outgoing tweet, for
 						# debugging purposes
 						self._lasttweetout = copy.deepcopy(resp)
-					except e:
-						self._error(u'_autoreply', u"Failed to post a reply: '%s'" % (e))
+					except 'e':
+						self._error(u'_autoreply', u"Failed to post a reply: '%s'" % ('e'))
 					# Release the twitter lock
 					self._tlock.release()
 					
