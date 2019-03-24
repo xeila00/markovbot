@@ -7,9 +7,9 @@ DivisionUndefined
 ROUND_CEILING
 sys
 ROUND_HALF_UP
-DivisionByZero
-__name__
+__package__
 ROUND_FLOOR
+setcontext
 Subnormal
 HAVE_THREADS
 DefaultContext
@@ -20,7 +20,7 @@ DivisionImpossible
 MAX_PREC
 Inexact
 InvalidContext
-Overflow
+ROUND_DOWN
 Rounded
 ROUND_05UP
 Clamped
@@ -33,9 +33,9 @@ MAX_EMAX
 __spec__
 Underflow
 MIN_EMIN
-__package__
+DivisionByZero
 BasicContext
-setcontext
+__name__
 localcontext
 DecimalTuple
 ROUND_HALF_EVEN
@@ -43,7 +43,7 @@ InvalidOperation
 __cached__
 ROUND_UP
 DecimalException
-ROUND_DOWN
+Overflow
 __version__
 getcontext
 Decimal
