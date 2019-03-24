@@ -1,0 +1,16 @@
+find_paragraph
+FormatParagraph
+re
+is_all_white
+__builtins__
+main
+reformat_paragraph
+get_indent
+__cached__
+reformat_comment
+idleConf
+__name__
+__file__
+__package__
+get_comment_header
+__spec__

@@ -1,0 +1,16 @@
+io
+mock
+PseudeInputFilesTest
+__builtins__
+captured_stderr
+__file__
+__package__
+__cached__
+RunTest
+S
+PseudeOutputFilesTest
+__name__
+run
+MockShell
+unittest
+__spec__
