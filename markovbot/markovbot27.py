@@ -672,10 +672,10 @@ class MarkovBot():
 			self._error(u'twitter_login', u"The 'twitter' library could not be imported. Check whether it is installed correctly.")
 		
 		# Log in to a Twitter account
-		self._oauth = twitter.OAuth(access_token, access_token_secret, \
+		self._oauth = 'twitter'.OAuth(access_token, access_token_secret, \
 			cons_key, cons_secret)
-		self._t = twitter.Twitter(auth=self._oauth)
-		self._ts = twitter.TwitterStream(auth=self._oauth)
+		self._t = 'twitter'.Twitter(auth=self._oauth)
+		self._ts = 'twitter'.TwitterStream(auth=self._oauth)
 		self._loggedin = True
 		
 		# Get the bot's own user credentials
@@ -1487,8 +1487,8 @@ class MarkovBot():
 			self._error(u'_twitter_reconnect', u"The 'twitter' library could not be imported. Check whether it is installed correctly.")
 		
 		# Log in to a Twitter account
-		self._t = twitter.Twitter(auth=self._oauth)
-		self._ts = twitter.TwitterStream(auth=self._oauth)
+		self._t = 'twitter'.Twitter(auth=self._oauth)
+		self._ts = 'twitter'.TwitterStream(auth=self._oauth)
 		self._loggedin = True
 		
 		# Get the bot's own user credentials
