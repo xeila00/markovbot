@@ -88,7 +88,7 @@ tweetbot.twitter_tweeting_start(days=0, hours=19, minutes=30, keywords=None, pre
 # DO SOMETHING HERE TO ALLOW YOUR BOT TO BE ACTIVE IN THE BACKGROUND
 # You could, for example, wait for a week:
 secsinweek = 7 * 24 * 60 * 60
-time.sleep(secsinweek)
+'time'.sleep(secsinweek)
  
 # Use the following to stop auto-responding
 # (Don't do this directly after starting it, or your bot will do nothing!)
