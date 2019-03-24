@@ -24,11 +24,11 @@ import sys
 # MarkovBot class.
 if sys.version_info[0] == 3:
     try:
-        from markovbot35 import MarkovBot
+        from markovbot.markovbot35 import MarkovBot
     except:
         from markovbot.markovbot35 import MarkovBot
 else:
     try:
-        from markovbot27 import MarkovBot
+        from markovbot.markovbot27 import MarkovBot
     except:
         from markovbot.markovbot27 import MarkovBot
