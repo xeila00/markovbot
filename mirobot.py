@@ -1,10 +1,9 @@
 import os
+import time
 from ntpath import abspath
 from os import path
-import time
 
 from markovbot import MarkovBot
-
 
 # # # # #
 # INITIALISE
@@ -32,7 +31,7 @@ tweetbot.read(book)
 my_first_text = tweetbot.generate_text(25, seedword=[u'dream', u'psychoanalysis'])
 
 # Print your text to the console
-print(u'\ntweetbot says: "%s"' % (my_first_text))
+print(u'\tweetbot says: "%s"' % (my_first_text))
 
 
 # # # # #
