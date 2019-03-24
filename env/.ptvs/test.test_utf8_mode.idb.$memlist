@@ -1,0 +1,17 @@
+sys
+locale
+textwrap
+os
+UTF8ModeTests
+__builtins__
+__file__
+support
+__cached__
+POSIX_LOCALES
+assert_python_failure
+assert_python_ok
+MS_WINDOWS
+__name__
+__package__
+unittest
+__spec__

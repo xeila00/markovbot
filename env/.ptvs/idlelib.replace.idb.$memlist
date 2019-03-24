@@ -1,0 +1,16 @@
+replace
+re
+__builtins__
+main
+__file__
+__package__
+TclError
+StringVar
+SearchDialogBase
+_replace_dialog
+ReplaceDialog
+__name__
+searchengine
+run
+__cached__
+__spec__

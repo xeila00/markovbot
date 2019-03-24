@@ -1,0 +1,16 @@
+tabnanny
+tokenize
+os
+__builtins__
+tkMessageBox
+__file__
+indent_message
+__cached__
+idleConf
+pyshell
+macosx
+__name__
+ScriptBinding
+main
+__package__
+__spec__

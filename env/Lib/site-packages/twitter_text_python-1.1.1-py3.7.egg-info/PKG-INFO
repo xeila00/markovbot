@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: twitter-text-python
+Version: 1.1.1
+Summary: Twitter Tweet parser and formatter
+Home-page: https://github.com/edmondburnett/twitter-text-python
+Author: Maintained by Edmond Burnett (previously Ian Ozsvald; originally Ivo Wetzel)
+Author-email: _@edmondburnett.com
+License: MIT
+Description: Extract @users, #hashtags and URLs (and unwind shortened links) from tweets including entity locations, also generate HTML for output. Visit https://github.com/edburnett/twitter-text-python for examples.
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Linguistic
