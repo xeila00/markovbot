@@ -13,7 +13,7 @@ FORMAT_AUTO
 MODE_NORMAL
 _encode_filter_properties
 decompress
-FILTER_SPARC
+FILTER_LZMA1
 CHECK_NONE
 MF_BT3
 _MODE_CLOSED
@@ -40,7 +40,7 @@ LZMADecompressor
 PRESET_EXTREME
 FORMAT_XZ
 __cached__
-FILTER_LZMA1
+FILTER_SPARC
 os
 builtins
 MF_HC4
