@@ -6,8 +6,8 @@ pthread_sigmask
 <lambda>
 SIG_IGN
 SIG_DFL
-SIGTERM
 CTRL_C_EVENT
+SIGSEGV
 SIGFPE
 SIGBREAK
 sigwait
@@ -25,7 +25,7 @@ _globals
 SIGABRT
 _int_to_enum
 __cached__
-SIGSEGV
+SIGTERM
 getsignal
 CTRL_BREAK_EVENT
 Handlers

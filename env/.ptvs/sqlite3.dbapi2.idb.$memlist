@@ -11,7 +11,7 @@ Timestamp
 SQLITE_PRAGMA
 InterfaceError
 threadsafety
-DataError
+connect
 SQLITE_DROP_INDEX
 DatabaseError
 sqlite_version_info
@@ -22,7 +22,7 @@ __cached__
 __package__
 SQLITE_DROP_TEMP_TRIGGER
 SQLITE_DROP_TEMP_VIEW
-version
+SQLITE_IGNORE
 OptimizedUnicode
 Statement
 SQLITE_DONE
@@ -31,10 +31,10 @@ collections
 version_info
 Binary
 OperationalError
-SQLITE_SAVEPOINT
+__file__
 adapt
 DateFromTicks
-SQLITE_DROP_TABLE
+SQLITE_CREATE_VIEW
 SQLITE_CREATE_TRIGGER
 SQLITE_DROP_TEMP_INDEX
 TimeFromTicks
@@ -47,7 +47,7 @@ adapters
 SQLITE_DROP_TEMP_TABLE
 SQLITE_DENY
 SQLITE_DETACH
-connect
+DataError
 time
 Warning
 __spec__
@@ -55,14 +55,14 @@ SQLITE_CREATE_TEMP_TRIGGER
 InternalError
 SQLITE_TRANSACTION
 SQLITE_DROP_VTABLE
-SQLITE_IGNORE
 SQLITE_SELECT
+version
 TimestampFromTicks
 register_adapters_and_converters
 __name__
 SQLITE_DROP_TRIGGER
-SQLITE_ALTER_TABLE
 paramstyle
+SQLITE_ALTER_TABLE
 Time
 SQLITE_DROP_VIEW
 SQLITE_CREATE_TEMP_INDEX
@@ -73,8 +73,8 @@ PrepareProtocol
 SQLITE_CREATE_TEMP_TABLE
 SQLITE_INSERT
 Row
-SQLITE_CREATE_VIEW
-__file__
+SQLITE_SAVEPOINT
+SQLITE_DROP_TABLE
 SQLITE_REINDEX
 ProgrammingError
 SQLITE_FUNCTION

@@ -11,11 +11,11 @@ terminal_size
 write
 extsep
 set_inheritable
-O_NOINHERIT
+O_EXCL
 O_SHORT_LIVED
 makedirs
 strerror
-supports_bytes_environ
+chmod
 stat_result
 _set
 defpath
@@ -72,7 +72,7 @@ fstat
 truncate
 name
 mkdir
-fwalk
+__spec__
 _Environ
 _have_functions
 symlink
@@ -94,9 +94,9 @@ fsencode
 O_BINARY
 _get_exports_list
 supports_dir_fd
-O_EXCL
+O_NOINHERIT
 umask
-chmod
+supports_bytes_environ
 _exists
 F_OK
 getcwdb
@@ -154,8 +154,8 @@ popen
 startfile
 renames
 fsync
+fwalk
 closerange
-__spec__
 spawnlp
 O_RDWR
 execvp
