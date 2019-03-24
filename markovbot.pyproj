@@ -19,8 +19,10 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="bower.json" />
     <Content Include="COPYING.txt" />
     <Content Include="Freud_Dream_Psychology.txt" />
+    <Content Include="package.json" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="example.py" />
