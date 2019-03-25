@@ -5,7 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{3cbc7466-1ef3-4d0a-aa16-94000eb34770}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>mirobot.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>markovbot</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -22,10 +23,9 @@
     <Content Include="bower.json" />
     <Content Include="COPYING.txt" />
     <Content Include="Freud_Dream_Psychology.txt" />
-    <Content Include="package.json" />
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="mirobot.py" />
     <Compile Include="markovbot\markovbot27.py" />
     <Compile Include="markovbot\markovbot35.py" />
     <Compile Include="markovbot\__init__.py" />

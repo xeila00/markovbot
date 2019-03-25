@@ -15,7 +15,7 @@ pylama_isort
 difflib
 __path__
 SortImports
-backports
+pylama
 dummy_threading
 __future__
 __file__
@@ -35,6 +35,6 @@ __cached__
 isort
 absolute_import
 __version__
-pylama
+backports
 settings
 distutils

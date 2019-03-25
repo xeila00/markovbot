@@ -11,7 +11,7 @@ __all__
 _decode_filter_properties
 FORMAT_AUTO
 MODE_NORMAL
-PRESET_EXTREME
+_encode_filter_properties
 decompress
 FILTER_LZMA1
 CHECK_NONE
@@ -20,9 +20,9 @@ _MODE_CLOSED
 CHECK_CRC32
 FORMAT_RAW
 is_check_supported
-FILTER_DELTA
-__file__
 MF_HC3
+__file__
+FILTER_DELTA
 FORMAT_ALONE
 __builtins__
 io
@@ -33,11 +33,11 @@ FILTER_ARM
 LZMAError
 FILTER_IA64
 __name__
-FILTER_X86
 MF_BT4
+FILTER_X86
 PRESET_DEFAULT
 LZMADecompressor
-_encode_filter_properties
+PRESET_EXTREME
 FORMAT_XZ
 __cached__
 FILTER_SPARC

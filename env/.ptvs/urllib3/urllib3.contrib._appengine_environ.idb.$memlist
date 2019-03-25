@@ -1,0 +1,12 @@
+is_appengine
+is_local_appengine
+is_prod_appengine
+os
+__spec__
+__file__
+__name__
+is_prod_appengine_mvms
+is_appengine_sandbox
+__builtins__
+__cached__
+__package__

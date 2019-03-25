@@ -19,12 +19,12 @@ sqlite_version_info
 enable_callback_tracebacks
 SQLITE_CREATE_INDEX
 SQLITE_UPDATE
-__cached__
+SQLITE_TRANSACTION
 __package__
 SQLITE_DROP_TEMP_TRIGGER
 SQLITE_DROP_TEMP_VIEW
-version
 SQLITE_IGNORE
+OptimizedUnicode
 Statement
 SQLITE_DONE
 SQLITE_CREATE_VTABLE
@@ -34,8 +34,8 @@ dbapi2
 dump
 Binary
 OperationalError
-__file__
 adapt
+__file__
 DateFromTicks
 SQLITE_CREATE_VIEW
 SQLITE_CREATE_TRIGGER
@@ -56,9 +56,9 @@ Warning
 __path__
 SQLITE_CREATE_TEMP_TRIGGER
 InternalError
-SQLITE_TRANSACTION
+__cached__
 SQLITE_DROP_VTABLE
-OptimizedUnicode
+version
 SQLITE_SELECT
 TimestampFromTicks
 register_adapters_and_converters

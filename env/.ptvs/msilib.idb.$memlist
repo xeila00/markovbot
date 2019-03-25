@@ -1,9 +1,9 @@
-PID_CODEPAGE
+PID_CREATE_DTM
 MSIError
-_Unspecified
+PID_CODEPAGE
 MSICOLINFO_NAMES
 PID_APPNAME
-PID_CREATE_DTM
+PID_LASTAUTHOR
 __builtins__
 add_data
 MSIMODIFY_VALIDATE_DELETE
@@ -38,8 +38,8 @@ FCICreate
 MSIMODIFY_INSERT
 current_feature
 PID_TEMPLATE
+MSIDBOPEN_CREATEDIRECT
 PID_LASTPRINTED
-type_localizable
 type_string
 knownbits
 UuidCreate
@@ -48,7 +48,7 @@ _directories
 Table
 type_key
 sequence
-PID_LASTAUTHOR
+_Unspecified
 string
 add_tables
 MSIMODIFY_UPDATE
@@ -85,5 +85,5 @@ Dialog
 MSIMODIFY_DELETE
 PID_SECURITY
 MSIMODIFY_VALIDATE
-MSIDBOPEN_CREATEDIRECT
+type_localizable
 MSIMODIFY_MERGE

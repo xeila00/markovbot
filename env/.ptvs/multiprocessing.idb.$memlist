@@ -1,8 +1,9 @@
-set_start_method
+TimeoutError
 sharedctypes
 heap
 __builtins__
 __spec__
+get_context
 __package__
 __name__
 semaphore_tracker
@@ -16,7 +17,7 @@ SUBWARNING
 get_start_method
 queues
 popen_spawn_posix
-TimeoutError
+set_start_method
 dummy
 forkserver
 resource_sharer

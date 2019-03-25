@@ -1,15 +1,15 @@
 time
 mainloop
 minute_hand
-ht
+penup
 sys
 read_docstrings
 ScrolledCanvas
 TNavigator
 hour_hand
 jump
-ontimer
 forward
+ontimer
 pensize
 __package__
 pendown
@@ -40,7 +40,7 @@ __file__
 lt
 TurtleScreen
 main
-penup
+ht
 datum
 __builtins__
 TPen

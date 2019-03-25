@@ -15,8 +15,8 @@ absolute_import
 mailchimp
 mailchimp_compliance_fix
 linkedin_compliance_fix
-oauthlib
 json
+oauthlib
 plentymarkets
 douban
 __name__

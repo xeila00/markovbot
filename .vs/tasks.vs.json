@@ -5,6 +5,16 @@
       "taskName": "tarea-package",
       "appliesTo": "package.json",
       "type": "launch"
+    },
+    {
+      "taskName": "tarea-",
+      "appliesTo": ".gitignore",
+      "type": "launch"
+    },
+    {
+      "taskName": "tarea-",
+      "appliesTo": "env/.ptvs/",
+      "type": "launch"
     }
   ]
 }

@@ -4,7 +4,7 @@ __name__
 default_int_handler
 pthread_sigmask
 <lambda>
-SIG_IGN
+__cached__
 SIG_DFL
 SIGTERM
 CTRL_C_EVENT
@@ -24,7 +24,7 @@ SIGILL
 _globals
 SIGABRT
 _int_to_enum
-__cached__
+SIG_IGN
 SIGSEGV
 getsignal
 CTRL_BREAK_EVENT

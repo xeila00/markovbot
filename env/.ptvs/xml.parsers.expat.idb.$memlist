@@ -1,7 +1,7 @@
 sys
 native_encoding
-XML_PARAM_ENTITY_PARSING_ALWAYS
-XML_PARAM_ENTITY_PARSING_NEVER
+EXPAT_VERSION
+ErrorString
 expat_CAPI
 features
 XMLParserType
@@ -11,9 +11,9 @@ __file__
 XML_PARAM_ENTITY_PARSING_UNLESS_STANDALONE
 version_info
 model
-EXPAT_VERSION
+XML_PARAM_ENTITY_PARSING_ALWAYS
 ExpatError
-ErrorString
+XML_PARAM_ENTITY_PARSING_NEVER
 errors
 __name__
 __package__

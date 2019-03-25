@@ -5,7 +5,7 @@ Any
 collections
 typing
 utils
-functools
+astroid
 newstyle
 similar
 __package__
@@ -31,7 +31,7 @@ __builtins__
 warnings
 __spec__
 python3
-astroid
+functools
 __all__
 sys
 tokenize

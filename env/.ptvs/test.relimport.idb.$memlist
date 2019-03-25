@@ -24,7 +24,6 @@ is_jython
 PycRewritingTests
 OverridingImportBuiltinTests
 forget
-something_that_should_not_exist_anywhere
 TestSymbolicallyLinkedPackage
 marshal
 __file__
@@ -44,7 +43,6 @@ sys
 __name__
 PathsTests
 CircularImportTests
-bogus
 random
 GetSourcefileTests
 __cached__

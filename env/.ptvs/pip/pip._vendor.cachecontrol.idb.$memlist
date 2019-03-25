@@ -9,7 +9,7 @@ threading
 __builtins__
 wrapper
 __file__
-urllib
+email
 __cached__
 __package__
 CacheControlAdapter
@@ -25,8 +25,8 @@ CacheController
 __name__
 datetime
 cPickle
-email
 pip
+urllib
 cache
 CacheControl
 __spec__
