@@ -11,7 +11,7 @@ tweetbot = MarkovBot()
 # Get the current directory's path
 dirname = os.path.dirname(os.path.abspath(__file__))
 # Construct the path to the book
-book = os.path.join(dirname, u'Freud_Dream_Psychology.txt')
+book = os.path.join(dirname, u'sobremesa.txt')
 # Make your bot read the book!
 tweetbot.read(book)
 

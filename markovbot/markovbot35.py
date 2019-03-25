@@ -343,7 +343,7 @@ class MarkovBot():
 			pickle.dump(self.data, f)
 		
 	
-	def read(self, filename, database=u'default', overwrite=False):
+	def read(self, filename, database=u'sobremesa.txt', overwrite=False):
 		
 		"""Reads a text, and adds its stats to the internal data. Use the
 		mode keyword to overwrite the existing data, or to add the new
