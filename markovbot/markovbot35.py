@@ -19,15 +19,15 @@
 # along with markovbot.  If not, see <http://www.gnu.org/licenses/>.
 
 
+import copy
 # native imports
 import os
-import sys
-import copy
-import time
 import pickle
 import random
-from threading import Thread, Lock
+import sys
+import time
 from multiprocessing import Queue
+from threading import Lock, Thread
 
 # external imports
 # Twitter package: https://pypi.python.org/pypi/twitter
@@ -1501,4 +1501,3 @@ class MarkovBot():
 		# Report the reconnection success.
 		self._message(u'_twitter_reconnect', \
 			u"Successfully reconnected to Twitter!")
-		
