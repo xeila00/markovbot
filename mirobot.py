@@ -28,7 +28,7 @@ tweetbot.read(book)
 my_first_text = tweetbot.generate_text(25, seedword=[u'dream', u'psychoanalysis'])
 
 # Print your text to the console
-print(u'\tweetbot says: "%s"' % (my_first_text))
+print(u'\ntweetbot says: "%s"' % (my_first_text))
 
 
 # # # # #
