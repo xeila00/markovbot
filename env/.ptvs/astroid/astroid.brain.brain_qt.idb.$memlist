@@ -1,0 +1,16 @@
+parse
+nodes
+transform_pyqt_signal
+<lambda>
+MANAGER
+__file__
+AstroidBuilder
+__cached__
+register_module_extender
+_looks_like_signal
+__name__
+__builtins__
+pyqt4_qtcore_transform
+__package__
+transform_pyside_signal
+__spec__

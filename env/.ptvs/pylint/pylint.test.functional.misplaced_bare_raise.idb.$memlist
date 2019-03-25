@@ -1,0 +1,12 @@
+ContextManager
+test1
+__spec__
+__file__
+__package__
+__name__
+test_dont_trigger_in_finally_clause_found_in_exception_handler
+A
+__builtins__
+__cached__
+exc
+test

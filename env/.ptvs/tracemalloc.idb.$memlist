@@ -1,9 +1,9 @@
-start
+__spec__
 _format_size
 get_traceback_limit
 Traceback
 _normalize_filename
-__spec__
+linecache
 __package__
 get_object_traceback
 DomainFilter
@@ -13,13 +13,13 @@ _get_object_traceback
 pickle
 Frame
 __file__
-get_tracemalloc_memory
+start
 Filter
 _Traces
 __builtins__
 Snapshot
 fnmatch
-linecache
+get_tracemalloc_memory
 total_ordering
 _get_traces
 __name__

@@ -1,7 +1,8 @@
 get_required_dists
 hashlib
+LEGACY_METADATA_FILENAME
 UnsupportedVersionError
-CSVWriter
+__builtins__
 codecs
 unicode_literals
 EXPORTS_FILENAME
@@ -24,7 +25,7 @@ parse_name_and_version
 InstalledDistribution
 __file__
 DISTINFO_EXT
-__builtins__
+CSVWriter
 DistributionPath
 __spec__
 make_graph

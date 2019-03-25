@@ -1,0 +1,13 @@
+function_returning_string
+deep_function_returning_bytes
+function_returning_none
+__spec__
+getenv
+__file__
+__name__
+deep_function_returning_string
+function_returning_list
+__builtins__
+__cached__
+function_returning_bytes
+__package__

@@ -1,0 +1,14 @@
+TestStdlibChecker
+_add_transform
+CheckerTestCase
+__spec__
+__file__
+astroid
+__name__
+Message
+stdlib
+UNDEFINED
+__builtins__
+__cached__
+contextlib
+__package__

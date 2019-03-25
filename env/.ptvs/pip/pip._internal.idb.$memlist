@@ -24,7 +24,7 @@ base64
 pyproject
 commands_dict
 __path__
-distutils
+__future__
 __file__
 cli
 main
@@ -50,6 +50,6 @@ absolute_import
 bazaar
 git
 pep425tags
-__future__
+distutils
 index
 download

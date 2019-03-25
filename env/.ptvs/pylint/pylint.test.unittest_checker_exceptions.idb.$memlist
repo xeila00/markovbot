@@ -1,0 +1,11 @@
+exceptions
+CheckerTestCase
+__spec__
+__file__
+__package__
+astroid
+Message
+TestExceptionsChecker
+__builtins__
+__cached__
+__name__

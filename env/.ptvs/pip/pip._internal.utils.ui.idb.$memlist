@@ -1,5 +1,5 @@
 time
-NonInteractiveSpinner
+SpinnerInterface
 DefaultDownloadProgressBar
 WritelnMixin
 Any
@@ -9,7 +9,7 @@ DownloadProgressSpinner
 DownloadShadyBar
 BlueEmojiBar
 WINDOWS
-colorama
+logger
 format_size
 __package__
 IncrementalBar
@@ -23,10 +23,11 @@ BAR_TYPES
 DownloadFillingCirclesBar
 DownloadFillingSquaresBar
 MYPY_CHECK_RUNNING
-WindowsMixin
 InterruptibleMixin
+IO
 __file__
 DownloadBlueEmojiProgressBar
+NonInteractiveSpinner
 SIGINT
 ShadyBar
 itertools
@@ -38,10 +39,11 @@ __spec__
 DownloadChargingBar
 _select_progress_class
 signal
-logger
+colorama
 contextlib
 sys
 __name__
+Iterator
 default_int_handler
 logging
 hidden_cursor
@@ -52,6 +54,7 @@ DownloadSilentBar
 absolute_import
 SilentBar
 six
+WindowsMixin
 FillingSquaresBar
 SHOW_CURSOR
 get_indentation

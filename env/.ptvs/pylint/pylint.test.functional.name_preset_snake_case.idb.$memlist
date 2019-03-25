@@ -1,0 +1,11 @@
+SOME_CONSTANT
+__spec__
+__file__
+__package__
+__name__
+sayHello
+MyClass
+__builtins__
+__cached__
+say_hello
+__version__

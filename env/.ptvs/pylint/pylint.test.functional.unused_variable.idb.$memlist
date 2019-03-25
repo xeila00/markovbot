@@ -1,0 +1,15 @@
+unused_import_from
+test_local_field_prefixed_with_unused_or_ignored
+test_regression_923
+__spec__
+__file__
+locals_example_defined_after
+__package__
+test_regression_737
+locals_example_defined_before
+test_unused_with_prepended_underscore
+__builtins__
+__cached__
+locals_does_not_account_for_subscopes
+HasUnusedDunderClass
+__name__

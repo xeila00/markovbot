@@ -1,0 +1,11 @@
+pytest_transform
+__spec__
+absolute_import
+__file__
+register_module_extender
+__name__
+MANAGER
+__builtins__
+__cached__
+AstroidBuilder
+__package__

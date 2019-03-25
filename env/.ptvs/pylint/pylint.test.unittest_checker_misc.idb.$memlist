@@ -1,0 +1,12 @@
+set_config
+_tokenize_str
+CheckerTestCase
+__spec__
+__file__
+__name__
+Message
+TestFixme
+__builtins__
+__cached__
+misc
+__package__

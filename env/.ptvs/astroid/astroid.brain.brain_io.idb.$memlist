@@ -1,0 +1,15 @@
+BUFFERED
+<lambda>
+_transform_text_io_wrapper
+TextIOWrapper
+__spec__
+__file__
+__package__
+astroid
+_transform_buffered
+FileIO
+__builtins__
+__cached__
+_generic_io_transform
+BufferedWriter
+__name__

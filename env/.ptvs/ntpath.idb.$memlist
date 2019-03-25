@@ -8,6 +8,7 @@ sep
 __all__
 basename
 dirname
+s
 getatime
 commonpath
 __cached__
@@ -38,7 +39,6 @@ commonprefix
 isabs
 altsep
 isfile
-s
 _getfullpathname
 join
 genericpath

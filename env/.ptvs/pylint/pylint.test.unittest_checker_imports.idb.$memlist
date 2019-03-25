@@ -1,0 +1,15 @@
+REGR_DATA
+set_config
+CheckerTestCase
+os
+__spec__
+__file__
+astroid
+__name__
+Message
+UNDEFINED
+imports
+__builtins__
+__cached__
+TestImportsChecker
+__package__

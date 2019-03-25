@@ -1,0 +1,14 @@
+disable
+EXPECTED
+MultipleTypesChecker
+__cached__
+__spec__
+osp
+__name__
+checker
+fix_import_path
+pytest
+__builtins__
+__file__
+test_types_redefined
+__package__

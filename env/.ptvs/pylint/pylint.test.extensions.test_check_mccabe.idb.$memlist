@@ -1,0 +1,15 @@
+disable
+mccabe
+__cached__
+__spec__
+osp
+register
+test_max_mccabe_rate
+__name__
+fname_mccabe_example
+EXPECTED_MSGS
+pytest
+__builtins__
+__file__
+enable
+__package__

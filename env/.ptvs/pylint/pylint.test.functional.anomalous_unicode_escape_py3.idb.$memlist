@@ -1,0 +1,13 @@
+GOOD_NAMED_UNICODE
+BAD_LONG_UNICODE
+__spec__
+__file__
+BAD_UNICODE
+BAD_NAMED_UNICODE
+__name__
+GOOD_UNICODE
+GOOD_LONG_UNICODE
+__builtins__
+__cached__
+RAW_BACKSLASHES
+__package__

@@ -1,0 +1,15 @@
+register
+BUILTIN_HINTS
+IAstroidChecker
+__spec__
+__file__
+BaseChecker
+astroid
+__name__
+BadBuiltinChecker
+BAD_FUNCTIONS
+__builtins__
+__cached__
+check_messages
+sys
+__package__

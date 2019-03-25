@@ -5,13 +5,13 @@ _exit
 __name__
 kill
 close
-fsencode
+device_encoding
 lseek
 terminal_size
-_get_exports_list
+write
 extsep
 set_inheritable
-O_NOINHERIT
+O_EXCL
 O_SHORT_LIVED
 makedirs
 strerror
@@ -43,7 +43,7 @@ spawnl
 P_OVERLAY
 __all__
 spawnvp
-pipe
+_add
 O_TEXT
 fsdecode
 system
@@ -54,7 +54,7 @@ PathLike
 getppid
 isatty
 O_RDONLY
-_putenv
+TMP_MAX
 spawnle
 abc
 get_handle_inheritable
@@ -71,7 +71,7 @@ fstat
 truncate
 name
 mkdir
-fwalk
+__spec__
 O_RDWR
 _Environ
 symlink
@@ -89,11 +89,11 @@ getcwd
 supports_fd
 get_terminal_size
 __package__
-device_encoding
+fsencode
 O_BINARY
-write
+_get_exports_list
 supports_dir_fd
-O_EXCL
+O_NOINHERIT
 umask
 chmod
 _exists
@@ -128,7 +128,7 @@ __cached__
 path
 _execvpe
 _check_bytes
-_add
+pipe
 MutableMapping
 DirEntry
 O_RANDOM
@@ -139,7 +139,7 @@ removedirs
 execl
 uname_result
 fdopen
-TMP_MAX
+_putenv
 P_NOWAIT
 urandom
 walk
@@ -153,8 +153,8 @@ popen
 startfile
 renames
 fsync
+fwalk
 closerange
-__spec__
 spawnlp
 _have_functions
 execvp

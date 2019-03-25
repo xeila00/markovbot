@@ -1,4 +1,5 @@
 index
+pip
 __spec__
 __file__
 candidate
@@ -7,6 +8,6 @@ __name__
 format_control
 __builtins__
 __cached__
-pip
+typing
 link
 __path__

@@ -5,7 +5,7 @@ orig
 urlparse
 os
 __builtins__
-hashlib
+getpass
 __file__
 __cached__
 io
@@ -13,9 +13,8 @@ spawn
 Request
 log
 __name__
-getpass
 standard_b64encode
-platform
+hashlib
 DistutilsError
 __package__
 __spec__

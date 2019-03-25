@@ -1,0 +1,14 @@
+test_redefined_in_for
+test_not_redefined_in_with
+__spec__
+__file__
+test_not_redefined_in_except_handler
+test_redefined_in_with
+__name__
+test_not_redefined_in_for
+test_not_redefined
+__builtins__
+__cached__
+apply_filter
+test_redefined_in_except_handler
+__package__

@@ -1,0 +1,14 @@
+sys
+other
+CONSTANT
+SOMEVAR
+__builtins__
+__file__
+__cached__
+fix_contant
+print_function
+global_with_import
+__name__
+define_constant
+__package__
+__spec__

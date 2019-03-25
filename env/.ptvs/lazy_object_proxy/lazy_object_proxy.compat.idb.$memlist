@@ -1,0 +1,10 @@
+PY2
+PY3
+__spec__
+__file__
+with_metaclass
+__name__
+__builtins__
+__cached__
+sys
+__package__

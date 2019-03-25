@@ -1,0 +1,17 @@
+sys
+FunctionType
+_ast_py2
+partial
+_parse
+ast
+__builtins__
+__file__
+parse_function_type_comment
+Optional
+_get_parser_module
+namedtuple
+_ast_py3
+__name__
+__package__
+__cached__
+__spec__

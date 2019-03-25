@@ -1,0 +1,12 @@
+TestStringChecker
+CheckerTestCase
+__spec__
+__file__
+__package__
+astroid
+Message
+TEST_TOKENS
+__builtins__
+__cached__
+strings
+__name__

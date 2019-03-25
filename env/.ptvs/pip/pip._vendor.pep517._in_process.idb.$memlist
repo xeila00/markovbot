@@ -23,6 +23,7 @@ __name__
 get_requires_for_build_wheel
 shutil
 pjoin
+BackendUnavailable
 _DummyException
 __package__
 __spec__

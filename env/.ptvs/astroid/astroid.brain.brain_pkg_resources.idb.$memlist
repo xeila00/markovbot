@@ -1,0 +1,12 @@
+parse
+__spec__
+__file__
+register_module_extender
+__package__
+astroid
+MANAGER
+__builtins__
+__cached__
+pkg_resources_transform
+inference_tip
+__name__

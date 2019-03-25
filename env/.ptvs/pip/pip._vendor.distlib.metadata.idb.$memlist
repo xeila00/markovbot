@@ -58,3 +58,4 @@ __version__
 StringIO
 json
 _345_MARKERS
+LEGACY_METADATA_FILENAME

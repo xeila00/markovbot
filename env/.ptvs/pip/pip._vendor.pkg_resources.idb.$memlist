@@ -10,6 +10,7 @@ absolute_import
 ensure_directory
 email
 _provider_factories
+_cygwin_patch
 _rebuild_mod_path
 _initialize
 _mkstemp
@@ -75,6 +76,7 @@ itertools
 run_main
 zipfile
 _imp
+PkgResourcesDeprecationWarning
 resource_exists
 EggProvider
 _initialize_master_working_set

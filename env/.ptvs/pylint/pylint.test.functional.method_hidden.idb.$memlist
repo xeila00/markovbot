@@ -1,0 +1,13 @@
+CustomProperty
+Cdef
+__spec__
+__file__
+Foo
+Abcd
+__name__
+print_function
+my_decorator
+__builtins__
+__cached__
+Ddef
+__package__

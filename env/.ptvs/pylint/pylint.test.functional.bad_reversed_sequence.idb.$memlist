@@ -1,0 +1,17 @@
+SecondGoodReversed
+SecondBadReversed
+uninferable
+__name__
+__builtins__
+__file__
+__package__
+ThirdBadReversed
+deque
+test
+GoodReversed
+BadReversed
+__revision__
+test_dict_ancestor_and_reversed
+test_dont_emit_for_reversing_enums
+__cached__
+__spec__

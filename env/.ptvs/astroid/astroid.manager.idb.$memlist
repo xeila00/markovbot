@@ -1,0 +1,14 @@
+spec
+exceptions
+os
+__spec__
+__file__
+transforms
+__name__
+safe_repr
+modutils
+zipimport
+__builtins__
+__cached__
+AstroidManager
+__package__

@@ -1,0 +1,14 @@
+not_used_before_assignment_2
+used_before_assignment_3
+used_before_assignment_1
+__spec__
+__file__
+func
+__name__
+used_before_assignment_2
+not_used_before_assignment
+__builtins__
+__cached__
+FalsePositive
+x
+__package__

@@ -2,7 +2,8 @@ get_summaries
 UpdatingDefaultsHelpFormatter
 get_similar_commands
 __version__
-parse_command
+List
+MYPY_CHECK_RUNNING
 os
 CommandError
 __builtins__
@@ -11,7 +12,9 @@ __package__
 __cached__
 sys
 __all__
+Tuple
 create_main_parser
+parse_command
 commands_dict
 cmdoptions
 __name__

@@ -1,0 +1,15 @@
+DiadefsHandler
+PackageDiagram
+ClassDiadefGenerator
+__spec__
+__file__
+BUILTINS_NAME
+__package__
+astroid
+DiaDefGenerator
+LocalsVisitor
+__builtins__
+__cached__
+DefaultDiadefGenerator
+ClassDiagram
+__name__

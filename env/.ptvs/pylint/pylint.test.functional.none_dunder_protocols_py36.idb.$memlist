@@ -1,0 +1,13 @@
+MetaContainer
+MetaOldIterable
+NonIterableClass
+__spec__
+__file__
+OldNonIterableClass
+test
+__name__
+MetaIterable
+NonContainerClass
+__builtins__
+__cached__
+__package__

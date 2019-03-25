@@ -1,0 +1,12 @@
+checkers
+__spec__
+__file__
+json
+PyLinter
+__name__
+JSONReporter
+StringIO
+__builtins__
+__cached__
+test_simple_json_output
+__package__

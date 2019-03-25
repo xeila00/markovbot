@@ -1,0 +1,16 @@
+test_fail4
+test_ok
+__revision__
+test_fail3
+nonlocal_in_ifexp
+__file__
+__package__
+__cached__
+test_fail2
+undefined
+undefined1
+__name__
+__builtins__
+test_fail5
+test_fail
+__spec__

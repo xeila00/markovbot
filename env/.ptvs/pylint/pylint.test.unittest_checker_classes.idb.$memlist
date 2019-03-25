@@ -1,0 +1,12 @@
+set_config
+CheckerTestCase
+__spec__
+__file__
+__package__
+astroid
+Message
+TestVariablesChecker
+__builtins__
+__cached__
+classes
+__name__

@@ -1,0 +1,13 @@
+docstring_and_pass
+__cached__
+__spec__
+A
+docstring_only
+__name__
+DocstringAndPass
+pass_only
+__builtins__
+__file__
+DocstringOnly
+PassOnly
+__package__

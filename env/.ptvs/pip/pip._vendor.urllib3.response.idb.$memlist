@@ -1,5 +1,6 @@
 is_fp_closed
 PY3
+MultiDecoder
 InvalidHeader
 __package__
 __name__
@@ -12,7 +13,7 @@ zlib
 ReadTimeoutError
 is_response_to_head
 HTTPException
-binary_type
+GzipDecoderState
 __file__
 ResponseNotChunked
 contextmanager
@@ -32,4 +33,3 @@ SocketTimeout
 ProtocolError
 GzipDecoder
 absolute_import
-GzipDecoderState

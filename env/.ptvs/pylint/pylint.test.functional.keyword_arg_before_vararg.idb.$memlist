@@ -1,0 +1,11 @@
+__spec__
+absolute_import
+__file__
+some_var
+__name__
+check_kwargs_before_args
+print_function
+AAAA
+__builtins__
+__cached__
+__package__

@@ -1,0 +1,16 @@
+bad_unicode
+bad_triplequote
+bad_braces
+good_percent
+bad_percent
+bad_multiarg
+good_multiarg
+raise_something_without_name
+__package__
+bad_multistring
+good_braces
+__name__
+__builtins__
+__file__
+__cached__
+__spec__

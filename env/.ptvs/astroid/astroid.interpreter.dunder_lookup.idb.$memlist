@@ -1,0 +1,13 @@
+itertools
+lookup
+exceptions
+_class_lookup
+__spec__
+__file__
+_builtin_lookup
+astroid
+__name__
+__builtins__
+__cached__
+_lookup_in_mro
+__package__

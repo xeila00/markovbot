@@ -1,0 +1,15 @@
+test_overlapping_exceptions
+disable
+join
+dirname
+__spec__
+__file__
+test_overlapping_exceptions_py33
+__name__
+checker
+pytest
+OverlappingExceptionsChecker
+__builtins__
+__cached__
+version_info
+__package__

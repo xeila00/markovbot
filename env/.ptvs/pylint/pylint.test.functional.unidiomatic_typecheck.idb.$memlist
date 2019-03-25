@@ -1,0 +1,14 @@
+type_creation_negatives
+deliberate_subclass_check_negatives
+__spec__
+__file__
+type_of_literals_positives
+parameter_shadowing_inference_negatives
+__name__
+invalid_type_call_negatives
+simple_inference_positives
+__builtins__
+__cached__
+local_var_shadowing_inference_negatives
+simple_positives
+__package__

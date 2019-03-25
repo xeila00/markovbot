@@ -1,0 +1,15 @@
+numpy_funcs
+_replace_numpy_function_infer_call_result
+_looks_like_numpy_function
+__spec__
+__file__
+numpy_random_mtrand_transform
+astroid
+__name__
+numpy_core_umath_transform
+functools
+__builtins__
+__cached__
+numpy_function_infer_call_result
+numpy_core_numerictypes_transform
+__package__

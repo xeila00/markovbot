@@ -23,7 +23,7 @@ PEP440Warning
 resource_string
 safe_listdir
 load_entry_point
-find_nothing
+register_finder
 CHECKOUT_DIST
 _sget_object
 re
@@ -62,7 +62,7 @@ _ReqExtras
 platform
 _vendor
 os
-_find_adapter
+resource_stream
 _is_unpacked_egg
 _always_object
 NotADirectoryError
@@ -120,9 +120,10 @@ resources_stream
 DEVELOP_DIST
 darwinVersionString
 Requirement
+ntpath
 resource_isdir
 resource_dir
-register_finder
+find_nothing
 packaging
 MODULE
 dist_factory
@@ -157,10 +158,11 @@ iter_entry_points
 run_script
 register_namespace_handler
 macosVersionString
-resource_stream
+_find_adapter
 __all__
 UnknownExtra
 ContextualVersionConflict
+posixpath
 get_platform
 yield_lines
 DistributionNotFound

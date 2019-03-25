@@ -1,0 +1,10 @@
+dummy_return
+bad_comparisons
+__spec__
+__file__
+good_comparison
+__name__
+MyClass
+__builtins__
+__cached__
+__package__

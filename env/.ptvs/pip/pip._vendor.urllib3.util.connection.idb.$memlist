@@ -1,6 +1,7 @@
 allowed_gai_family
 create_connection
 _has_ipv6
+_appengine_environ
 NoWayToWaitForSocketError
 __file__
 __package__

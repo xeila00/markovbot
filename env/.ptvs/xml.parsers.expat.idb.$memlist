@@ -8,14 +8,14 @@ XMLParserType
 ParserCreate
 __builtins__
 __file__
-__package__
 XML_PARAM_ENTITY_PARSING_UNLESS_STANDALONE
+version_info
 model
 EXPAT_VERSION
 ExpatError
 ErrorString
 errors
 __name__
-version_info
+__package__
 __cached__
 __spec__

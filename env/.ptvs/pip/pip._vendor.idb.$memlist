@@ -24,6 +24,7 @@ DEBUNDLED
 distro
 WHEEL_DIR
 pytoml
+itertools
 retrying
 __builtins__
 com
@@ -34,6 +35,7 @@ datetime
 webencodings
 colorama
 sys
+types
 msgpack
 win32com
 winreg

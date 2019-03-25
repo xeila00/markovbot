@@ -1,8 +1,11 @@
-user_config_dir
+sys
+user_data_dir
 user_cache_dir
 PY2
+List
 site_config_dirs
 ctypes
+MYPY_CHECK_RUNNING
 __name__
 __builtins__
 _win_path_to_bytes
@@ -11,12 +14,12 @@ _get_win_folder_from_registry
 WINDOWS
 __cached__
 absolute_import
-user_data_dir
+Union
 text_type
 os
 expanduser
 _get_win_folder
 _get_win_folder_with_ctypes
+user_config_dir
 __package__
-sys
 __spec__

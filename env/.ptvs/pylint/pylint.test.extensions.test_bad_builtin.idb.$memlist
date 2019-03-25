@@ -1,0 +1,14 @@
+disable
+fix_import_path
+__cached__
+__spec__
+osp
+BadBuiltinChecker
+__name__
+checker
+EXPECTED
+pytest
+__builtins__
+__file__
+test_types_redefined
+__package__

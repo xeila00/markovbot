@@ -1,0 +1,16 @@
+astroid
+MSGS
+NewStyleConflictChecker
+IAstroidChecker
+__builtins__
+__file__
+register
+__cached__
+sys
+check_messages
+BaseChecker
+__name__
+has_known_bases
+node_frame_class
+__package__
+__spec__

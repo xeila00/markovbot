@@ -1,0 +1,16 @@
+PY3
+PY2
+_ProxyMethods
+cached_property
+__builtins__
+_ProxyMetaType
+__file__
+__package__
+Proxy
+with_metaclass
+make_proxy_method
+__name__
+operator
+identity
+__cached__
+__spec__

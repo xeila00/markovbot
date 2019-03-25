@@ -1,0 +1,17 @@
+Thing
+OldStyleIterable
+ImportedClass
+__builtins__
+CustomIterable
+__file__
+__cached__
+AbstractThing
+EmptyClass
+UsefulMixin
+MaybeIterable
+__name__
+BaseThing
+UniversalContainer
+__package__
+count
+__spec__

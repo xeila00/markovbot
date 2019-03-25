@@ -1,0 +1,15 @@
+func_no_return
+print_function
+func_return_none_and_smth
+A
+__spec__
+__file__
+Abstract
+func_implicit_return_none
+__name__
+func_return_none
+generators
+__builtins__
+__cached__
+generator
+__package__

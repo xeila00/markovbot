@@ -1,0 +1,12 @@
+is_decorated_with_attrs
+MANAGER
+__spec__
+__file__
+__package__
+astroid
+ATTRS_NAMES
+attr_attributes_transform
+__builtins__
+__cached__
+ATTRIB_NAMES
+__name__

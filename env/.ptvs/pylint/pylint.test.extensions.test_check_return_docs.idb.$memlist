@@ -1,0 +1,15 @@
+set_config
+TestDocstringCheckerReturn
+absolute_import
+__spec__
+__file__
+__package__
+division
+Message
+print_function
+CheckerTestCase
+__builtins__
+__cached__
+DocstringParameterChecker
+astroid
+__name__
