@@ -55,7 +55,7 @@ class MarkovBot():
 		# DATA
 
 		# Create an empty dict for the data
-		self.data = {u'sobremesa.txt':{}}
+		self.data = {u'default':{}}
 		
 
 		# # # # #
@@ -141,12 +141,12 @@ class MarkovBot():
 		
 		database		-	A string that indicates the name of the
 						specific database that you want to clear,
-						or None to clear all data. (sobremesa.txt = None)
+						or None to clear all data. (default = None)
 		"""
 		
 		# Overwrite data
 		if database == None:
-			self.data = {'sobremesa.txt':{}}
+			self.data = {'default':{}}
 		else:
 			try:
 				self.data.pop(database)
@@ -154,7 +154,7 @@ class MarkovBot():
 				self._error(u'clear_data', u"There was no database named '%s'" % (database))
 
 
-	def generate_text(self, maxlength, seedword=None, database=u'sobremesa.txt',
+	def generate_text(self, maxlength, seedword=None, database=u'default',
 		verbose=False, maxtries=100):
 		
 		"""Generates random text based on the provided database.
@@ -179,8 +179,8 @@ class MarkovBot():
 		
 		database		-	A string that indicates the name of the
 						specific database that you want to use to
-						generate the text, or u'sobremesa.txt' to use the
-						sobremesa.txt database. (sobremesa.txt = 'sobremesa.txt')
+						generate the text, or u'default' to use the
+						default database. (default = 'default')
 
 		verbose		-	Boolean that indicates whether this function
 						should bother you with excessibe and unnecessary
@@ -360,12 +360,12 @@ class MarkovBot():
 		
 		database		-	A string that indicates the name of the
 						specific database that you want to add the
-						file's data to, or u'sobremesa.txt' to add to the
-						sobremesa.txt database. (sobremesa.txt = 'sobremesa.txt')
+						file's data to, or u'default' to add to the
+						default database. (default = 'default')
 
 		overwrite		-	Boolean that indicates whether the existing data
 						should be overwritten (True) or not (False). The
-						sobremesa.txt value is False.
+						default value is False.
 		"""
 		
 		# Clear the current data if required
@@ -424,7 +424,7 @@ class MarkovBot():
 		
 		overwrite		-	Boolean that indicates whether the existing data
 						should be overwritten (True) or not (False). The
-						sobremesa.txt value is False.
+						default value is False.
 		"""
 	
 		# Check whether the file exists
@@ -478,7 +478,7 @@ class MarkovBot():
 		
 		overwrite		-	Boolean that indicates whether the existing data
 						should be overwritten (True) or not (False). The
-						sobremesa.txt value is False.
+						default value is False.
 		"""
 		
 		# Check if the 'simpleresponse' database already exists, and
@@ -517,7 +517,7 @@ class MarkovBot():
 					u"Key '%s' in passed respdict points to invalid data. Values need to be of type str, unicode, list, or tuple." % (targetstring))
 	
 	
-	def twitter_autoreply_start(self, targetstring, database=u'sobremesa.txt',
+	def twitter_autoreply_start(self, targetstring, database=u'default',
 		keywords=None, prefix=None, suffix=None, maxconvdepth=None,
 		mindelay=1.5):
 		
@@ -539,7 +539,7 @@ class MarkovBot():
 						specific database that you want to use to
 						generate tweets, or a list of database names
 						from which one will be selected at random,
-						or u'sobremesa.txt' to use the sobremesa.txt database.
+						or u'default' to use the default database.
 						You can also use the string 'auto-language'
 						to make the bot automatically detect the
 						language of Tweets, and to reply using a
@@ -548,7 +548,7 @@ class MarkovBot():
 						option relies on Twitter's language-detection
 						 algorithms. If a language cannot be 
 						identified, the fall-back will be 'en', or
-						'sobremesa.txt' when 'en' is not available. Another
+						'default' when 'en' is not available. Another
 						option is to use database='random-database',
 						which will select one of the non-empty
 						databases that are available to this bot.
@@ -557,8 +557,8 @@ class MarkovBot():
 						a response from the list of available
 						responses from the 'simpleresponse' database.
 						You can add to this database by using the
-						set_simple_response method. sobremesa.txt value is
-						'sobremesa.txt'.
+						set_simple_response method. Default value is
+						'default'.
 
 
 		keywords		-	A list of words that the bot should recognise in
@@ -578,13 +578,13 @@ class MarkovBot():
 						each tweet (no ending space required), or a
 						list of potential prefixes from which one
 						will be chosen at random. Pass None if you
-						don't want a prefix. sobremesa.txt value is None.
+						don't want a prefix. Default value is None.
 
 		suffix		-	A string that will be added at the end of
 						each tweet (no starting space required), or
 						a list of potential suffixes from which one
 						will be chosen at random. Pass None if you
-						don't want a suffix. sobremesa.txt value is None.
+						don't want a suffix. Default value is None.
 		
 		maxconvdepth	-	Integer that determines the maximal depth of the
 						conversations that this bot is allowed to reply
@@ -596,10 +596,10 @@ class MarkovBot():
 						which is appropriate if you ask the bot to reply
 						to a very specific hashtag or your own Twitter
 						handle (i.e. a situation in which the bot is
-						sollicited to respond). sobremesa.txt value is None.
+						sollicited to respond). Default value is None.
 		
 		mindelay		-	A float that indicates the minimal time
-						between tweets in minutes. sobremesa.txt is 1.5
+						between tweets in minutes. Default is 1.5
 		"""
 		
 		# Raise an Exception if the twitter library wasn't imported
@@ -686,13 +686,13 @@ class MarkovBot():
 		self._credentials = self._t.account.verify_credentials()
 	
 	
-	def twitter_tweeting_start(self, database=u'sobremesa.txt', days=1, hours=0, \
+	def twitter_tweeting_start(self, database=u'default', days=1, hours=0, \
 		minutes=0, jitter=0, keywords=None, prefix=None, suffix=None):
 		
 		"""Periodically posts a new tweet with generated text. You can
 		specify the interval between tweets in days, hours, or minutes, or
 		by using a combination of all. (Not setting anything will result in
-		the sobremesa.txt value of a 1 day interval.) You can also add optional
+		the default value of a 1 day interval.) You can also add optional
 		jitter, which makes your bot a bit less predictable.
 		
 		Keyword arguments
@@ -701,11 +701,11 @@ class MarkovBot():
 						specific database that you want to use to
 						generate tweets, or a list of database names
 						from which one will be selected at random,
-						or u'sobremesa.txt' to use the sobremesa.txt database.
+						or u'default' to use the default database.
 						You can also use the string 'random-database'
 						to select one of the non-empty databases
-						that are available to this bot. sobremesa.txt
-						value is 'sobremesa.txt'.
+						that are available to this bot. Default
+						value is 'default'.
 
 		days			-	Numeric value (int or float) that indicates the
 						amount of days between each tweet.
@@ -727,13 +727,13 @@ class MarkovBot():
 						each tweet (no ending space required), or a
 						list of potential prefixes from which one
 						will be chosen at random. Pass None if you
-						don't want a prefix. sobremesa.txt value is None.
+						don't want a prefix. Default value is None.
 
 		suffix		-	A string that will be added at the end of
 						each tweet (no starting space required), or
 						a list of potential suffixes from which one
 						will be chosen at random. Pass None if you
-						don't want a suffix. sobremesa.txt value is None.
+						don't want a suffix. Default value is None.
 
 		keywords		-	A list of words from which one is randomly
 						selected and used to attempt to start a tweet
@@ -754,7 +754,7 @@ class MarkovBot():
 			minutes = 0
 		# Calculate the tweet interval in minutes
 		tweetinterval = (days*24*60) + (hours*60) + minutes
-		# If the tweetinterval wasn't set, sobremesa.txt to 1 day
+		# If the tweetinterval wasn't set, default to 1 day
 		# (Thats 24 hours * 60 minutes per hour = 1440 minutes)
 		if tweetinterval == 0:
 			tweetinterval = 1440
@@ -939,29 +939,29 @@ class MarkovBot():
 					# Detect the language of the tweet, if the
 					# language of the reply depends on it.
 					if self._autoreply_database == u'auto-language':
-						# Get the language of the tweet, or sobremesa.txt
+						# Get the language of the tweet, or default
 						# to English if it isn't available.
 						if u'lang' in tweet.keys():
 							lang = tweet[u'lang'].lower()
 							self._message(u'_autoreply', u"I detected language: '%s'." % (lang))
 						else:
 							lang = u'en'
-							self._message(u'_autoreply', u"I couldn't detect the language, so I sobremesa.txted to '%s'." % (lang))
+							self._message(u'_autoreply', u"I couldn't detect the language, so I defaulted to '%s'." % (lang))
 						# Check if the language is available in the
 						# existing dicts. Select the associated
-						# database, or sobremesa.txt to English when the
+						# database, or default to English when the
 						# detected language isn't available, or
-						# sobremesa.txt to u'sobremesa.txt' when English is not
+						# default to u'default' when English is not
 						# available.
 						if lang in self.data.keys():
 							database = lang
 							self._message(u'_autoreply', u"I chose database: '%s'." % (database))
 						elif u'en' in self.data.keys():
 							database = u'en'
-							self._message(u'_autoreply', u"There was no database for detected language '%s', so I sobremesa.txted to '%s'." % (lang, database))
+							self._message(u'_autoreply', u"There was no database for detected language '%s', so I defaulted to '%s'." % (lang, database))
 						else:
-							database = u'sobremesa.txt'
-							self._message(u'_autoreply', u"There was no database for detected language '%s', nor for 'en', so I sobremesa.txted to '%s'." % (lang, database))
+							database = u'default'
+							self._message(u'_autoreply', u"There was no database for detected language '%s', nor for 'en', so I defaulted to '%s'." % (lang, database))
 					# Randomly choose a database if a random database
 					# was requested. Never use an empty database,
 					# though (the while loop prevents this).
@@ -982,28 +982,28 @@ class MarkovBot():
 						database = copy.deepcopy(self._autoreply_database)
 						self._message(u'_autoreply', \
 							u'Using database: %s' % (database))
-					# If none of the above options apply, sobremesa.txt to
-					# the sobremesa.txt database.
+					# If none of the above options apply, default to
+					# the default database.
 					else:
-						database = u'sobremesa.txt'
+						database = u'default'
 						self._message(u'_autoreply', \
-							u'sobremesa.txted to database: %s' % (database))
+							u'Defaulted to database: %s' % (database))
 					
 					# If the selected database is not a string, or if
-					# it is empty, then fall back on the sobremesa.txt
+					# it is empty, then fall back on the default
 					# database.
 					if type(database) not in [str]:
 						self._message(u'_autoreply', \
-							u"Selected database '%s' is invalid, sobremesa.txting to: %s" % (database, u'sobremesa.txt'))
-						database = u'sobremesa.txt'
+							u"Selected database '%s' is invalid, defaulting to: %s" % (database, u'default'))
+						database = u'default'
 					elif database not in self.data.keys():
 						self._message(u'_autoreply', \
-							u"Selected database '%s' does not exist, sobremesa.txting to: %s" % (database, u'sobremesa.txt'))
-						database = u'sobremesa.txt'
+							u"Selected database '%s' does not exist, defaulting to: %s" % (database, u'default'))
+						database = u'default'
 					elif self.data[database] == {}:
 						self._message(u'_autoreply', \
-							u"Selected database '%s' is empty, sobremesa.txting to: %s" % (database, u'sobremesa.txt'))
-						database = u'sobremesa.txt'
+							u"Selected database '%s' is empty, defaulting to: %s" % (database, u'default'))
+						database = u'default'
 
 					# Separate the words in the tweet
 					tw = tweet[u'text'].split()
@@ -1047,7 +1047,7 @@ class MarkovBot():
 							prefix = u'@%s %s' % \
 								(tweet[u'user'][u'screen_name'], \
 								random.choice(self._tweetprefix))
-						# Fall back on the sobremesa.txt option.
+						# Fall back on the default option.
 						else:
 							prefix = u'@%s' % (tweet[u'user'][u'screen_name'])
 							self._message(u'_autoreply', \
@@ -1156,11 +1156,11 @@ class MarkovBot():
 				# If the specified database is a string, use it.
 				elif type(self._tweetingdatabase) in [str]:
 					database = copy.deepcopy(self._tweetingdatabase)
-				# Fall back on the sobremesa.txt option.
+				# Fall back on the default option.
 				else:
 					self._message(u'_autotweet', \
-						u"Could not recognise the type of database '%s'; using '%s' instead." % (self._tweetingdatabase, u'sobremesa.txt'))
-					database = u'sobremesa.txt'
+						u"Could not recognise the type of database '%s'; using '%s' instead." % (self._tweetingdatabase, u'default'))
+					database = u'default'
 
 				# Construct a prefix for this tweet. We use the
 				# specified prefix, which can also be None. Or
@@ -1249,7 +1249,7 @@ class MarkovBot():
 		Keyword Arguments
 		
 		allowedext	-	List of allowed extensions, or None to allow all
-						extensions. sobremesa.txt value is None.
+						extensions. Default value is None.
 		
 		Returns
 		
@@ -1319,7 +1319,7 @@ class MarkovBot():
 				self._message(u'_cpr', u'Succesfully restarted _selfexaminationthread!')
 
 	
-	def _construct_tweet(self, database=u'sobremesa.txt', seedword=None, \
+	def _construct_tweet(self, database=u'default', seedword=None, \
 		prefix=None, suffix=None):
 		
 		"""Constructs a text for a tweet, based on the current Markov chain.
@@ -1334,20 +1334,20 @@ class MarkovBot():
 						chosen. This value can also be a list of words,
 						in which case the list will be processed
 						one-by-one until a word is found that is in the
-						database. sobremesa.txt value is None.
+						database. Default value is None.
 		
 		database		-	A string that indicates the name of the
 						specific database that you want to use to
-						generate the text, or u'sobremesa.txt' to use the
-						sobremesa.txt database. (sobremesa.txt = 'sobremesa.txt')
+						generate the text, or u'default' to use the
+						default database. (default = 'default')
 
 		prefix		-	A string that will be added at the start of each
 						tweet (no ending space required). Pass None if
-						you don't want a prefix. sobremesa.txt value is None.
+						you don't want a prefix. Default value is None.
 
 		suffix		-	A string that will be added at the end of each
 						tweet (no starting space required). Pass None if
-						you don't want a suffix. sobremesa.txt value is None.
+						you don't want a suffix. Default value is None.
 		
 		Returns
 		
